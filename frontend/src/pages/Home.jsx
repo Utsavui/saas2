@@ -24,7 +24,7 @@ const Home = () => {
 
         <div className="container text-center">
           <span className="badge">
-            <Zap size={14} fill="currentColor" /> Introducing SaaSify 2.0
+            <Zap size={14} fill="currentColor" /> Introducing saasflowzen 2.0
           </span>
           <h1 style={{ marginBottom: '1.5rem', fontWeight: 800, lineHeight: 1.15 }}>
             Decentralized Analytics <br />
@@ -151,7 +151,7 @@ const Home = () => {
               <span className="badge">Why Choose Us</span>
               <h2 style={{ marginBottom: '1.5rem' }}>Optimize performance and cut cloud costs by 40%</h2>
               <p style={{ marginBottom: '2rem' }}>
-                Traditional analytics platforms are heavy, slow, and expensive. SaaSify optimizes server-side data compression so you query data rapidly without bloating your cloud compute bill.
+                Traditional analytics platforms are heavy, slow, and expensive. saasflowzen optimizes server-side data compression so you query data rapidly without bloating your cloud compute bill.
               </p>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
@@ -201,12 +201,12 @@ const Home = () => {
           <div className="text-center max-w-md" style={{ marginBottom: '4rem' }}>
             <span className="badge">Testimonials</span>
             <h2>Trusted by Industry Leaders</h2>
-            <p style={{ marginTop: '1rem' }}>See how scaling companies trust SaaSify to manage and automate their cloud workflows.</p>
+            <p style={{ marginTop: '1rem' }}>See how scaling companies trust saasflowzen to manage and automate their cloud workflows.</p>
           </div>
           <div className="grid-3">
             <div className="card" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
               <p style={{ fontStyle: 'italic', marginBottom: '1.5rem' }}>
-                "SaaSify has completely transformed how our engineering team processes logs. What used to take hours now executes in real-time."
+                "saasflowzen has completely transformed how our engineering team processes logs. What used to take hours now executes in real-time."
               </p>
               <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
                 <div style={{ width: '40px', height: '40px', borderRadius: '50%', background: '#cbd5e1', fontWeight: 600, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>S</div>
@@ -314,7 +314,7 @@ const Home = () => {
         <div className="container text-center max-w-md">
           <h2>Ready to transform your cloud database metrics?</h2>
           <p style={{ marginTop: '1rem', marginBottom: '2rem' }}>
-            Get started in under five minutes. No credit card required to begin your 14-day free trial of SaaSify.
+            Get started in under five minutes. No credit card required to begin your 14-day free trial of saasflowzen.
           </p>
           <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
             <Link to="/signup" className="btn btn-primary glow-effect">

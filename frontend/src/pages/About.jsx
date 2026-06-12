@@ -36,19 +36,19 @@ const About = () => {
         <span className="badge">Our Journey</span>
         <h1>We design the tools to unlock developer potential</h1>
         <p style={{ marginTop: '1.5rem', fontSize: '1.1rem' }}>
-          SaaSify was founded in 2024 with a single mission: to make cloud infrastructure metrics digestible, actionable, and cost-effective.
+          saasflowzen was founded in 2024 with a single mission: to make cloud infrastructure metrics digestible, actionable, and cost-effective.
         </p>
       </section>
 
       {/* Story Grid */}
       <section className="grid-2" style={{ marginBottom: '6rem' }}>
         <div>
-          <h2 style={{ marginBottom: '1.5rem' }}>The Story Behind SaaSify</h2>
+          <h2 style={{ marginBottom: '1.5rem' }}>The Story Behind saasflowzen</h2>
           <p style={{ marginBottom: '1rem' }}>
             As developers, Aditi and Julian spent half their working hours querying databases, waiting for custom dashboard compiles, and tracking down runaway cloud usage bills.
           </p>
           <p>
-            They realized that legacy monitoring dashboards were either too heavy for smaller projects or too expensive for scaling teams. They decided to build a lightweight, edge-native telemetry collector: and SaaSify was born.
+            They realized that legacy monitoring dashboards were either too heavy for smaller projects or too expensive for scaling teams. They decided to build a lightweight, edge-native telemetry collector: and saasflowzen was born.
           </p>
         </div>
         <div style={{

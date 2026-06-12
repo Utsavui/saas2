@@ -22,7 +22,7 @@ const Navbar = ({ theme, toggleTheme }) => {
       <div className="container navbar-container">
         <Link to="/" className="logo" onClick={() => setIsOpen(false)}>
           <Zap size={24} fill="currentColor" />
-          <span>SaaSify</span>
+          <span>saasflowzen</span>
         </Link>
 
         {/* Desktop Menu */}

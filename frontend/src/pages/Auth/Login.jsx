@@ -64,7 +64,7 @@ const Login = () => {
       <div className="card animate-fade-in-up" style={{ width: '100%', maxWidth: '420px', padding: '2.5rem 2rem' }}>
         <div className="text-center" style={{ marginBottom: '2rem' }}>
           <h2 style={{ fontSize: '1.75rem', marginBottom: '0.5rem' }}>Welcome Back</h2>
-          <p>Login to manage your SaaSify account</p>
+          <p>Login to manage your saasflowzen account</p>
         </div>
 
         {errorMsg && (

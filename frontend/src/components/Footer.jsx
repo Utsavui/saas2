@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="footer-logo-col">
             <Link to="/" className="logo" style={{ marginBottom: '1rem' }}>
               <Zap size={24} fill="currentColor" />
-              <span>SaaSify</span>
+              <span>saasflowzen.</span>
             </Link>
             <p>
               Next-generation cloud analytics and workspace automation for scaling teams and modern businesses.
@@ -66,7 +66,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} SaaSify Inc. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} saasflowzen Inc. All rights reserved.</p>
           <p style={{ display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
             Made with <Heart size={14} fill="#ef4444" color="#ef4444" /> for premium workflows.
           </p>

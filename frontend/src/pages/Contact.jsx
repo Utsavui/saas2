@@ -163,7 +163,7 @@ const Contact = () => {
               </div>
               <div>
                 <p style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--text-muted)' }}>Email</p>
-                <p style={{ fontWeight: 600 }}>support@saasify.io</p>
+                <p style={{ fontWeight: 600 }}>support@saasflowzen.io</p>
               </div>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
@@ -239,7 +239,7 @@ const Contact = () => {
                   borderRadius: '4px',
                   boxShadow: 'var(--shadow-sm)'
                 }}>
-                  SaaSify HQ
+                  saasflowzen HQ
                 </span>
               </div>
             </div>

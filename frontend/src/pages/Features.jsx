@@ -80,7 +80,7 @@ const Features = () => {
             </span>
             <h2 style={{ marginBottom: '1.5rem' }}>Security structures that protect sensitive user records</h2>
             <p style={{ marginBottom: '1.5rem' }}>
-              Every connection made through SaaSify uses custom SSL tunnels. Auth operations hash credentials using bcrypt on secure nodes, while session management utilizes encrypted JWT signatures.
+              Every connection made through saasflowzen uses custom SSL tunnels. Auth operations hash credentials using bcrypt on secure nodes, while session management utilizes encrypted JWT signatures.
             </p>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
               <li style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
@@ -161,13 +161,13 @@ const Features = () => {
               Sync custom collections straight to storage layers. Automate CSV uploads to Google Drive or AWS S3:
             </p>
             <div style={{ padding: '1rem', background: 'var(--background)', borderRadius: '8px', border: '1px solid var(--surface-border)', fontFamily: 'monospace', fontSize: '0.85rem' }}>
-              <span style={{ color: 'var(--primary)' }}>const</span> saasify = require(<span style={{ color: 'var(--success)' }}>'saasify-sdk'</span>);<br />
+              <span style={{ color: 'var(--primary)' }}>const</span> saasflowzen = require(<span style={{ color: 'var(--success)' }}>'saasflowzen-sdk'</span>);<br />
               <span style={{ color: 'var(--primary)' }}>const</span> config = &#123;<br />
               &nbsp;&nbsp;syncInterval: <span style={{ color: '#f59e0b' }}>'24h'</span>,<br />
               &nbsp;&nbsp;format: <span style={{ color: '#f59e0b' }}>'csv'</span>,<br />
               &nbsp;&nbsp;target: <span style={{ color: '#f59e0b' }}>'s3://production-telemetry'</span><br />
               &#125;;<br />
-              saasify.initialize(config);
+              saasflowzen.initialize(config);
             </div>
           </div>
         </div>
